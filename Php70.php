@@ -61,10 +61,10 @@ class Php70
         if (is_int($value)) {
             return $value;
         }
-        if (!is_numeric($value) || PHP_INT_MAX <= $value || ~PHP_INT_MAX >= $value) {
+        if (!is_numeric($value) || PHP_INT_MAX <= ($value += 0) || ~PHP_INT_MAX >= $value) {
             throw new \TypeError(sprintf('%s() expects parameter %d to be integer, %s given', $caller, $pos, gettype($value)));
         }
 
-        return (int) $value += 0;
+        return (int) $value;
     }
 }
