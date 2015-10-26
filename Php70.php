@@ -16,7 +16,7 @@ namespace Symfony\Polyfill\Php70;
  *
  * @internal
  */
-class Php70
+final class Php70
 {
     public static function intdiv($dividend, $divisor)
     {
