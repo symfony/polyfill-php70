@@ -9,6 +9,9 @@ This component provides functions unavailable in releases prior to PHP 7.0:
 - `random_bytes` and `random_int` (from [paragonie/random_compat](https://github.com/paragonie/random_compat))
 - [`*Error` throwable classes](http://php.net/Error)
 
+Also, it provides a constant added to PHP 7.0:
+- [`PHP_INT_MIN`](http://php.net/manual/en/reserved.constants.php#constant.php-int-min)
+
 More information can be found in the
 [main Polyfill README](https://github.com/symfony/polyfill/blob/master/README.md).
 
