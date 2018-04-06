@@ -60,7 +60,7 @@ final class Php70
         restore_error_handler();
     }
 
-    public static function intArg($value, $caller, $pos)
+    private static function intArg($value, $caller, $pos)
     {
         if (is_int($value)) {
             return $value;
