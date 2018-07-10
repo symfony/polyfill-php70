@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "paragonie/random_compat": "~1.0|~2.0"
+        "paragonie/random_compat": "~1.0|~2.0|~9.99"
     },
     "autoload": {
         "psr-4": { "Symfony\\Polyfill\\Php70\\": "" },
