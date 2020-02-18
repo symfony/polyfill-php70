@@ -3,12 +3,12 @@ Symfony Polyfill / Php70
 
 This component provides features unavailable in releases prior to PHP 7.0:
 
-- [`intdiv`](http://php.net/intdiv)
-- [`preg_replace_callback_array`](http://php.net/preg_replace_callback_array)
-- [`error_clear_last`](http://php.net/error_clear_last)
+- [`intdiv`](https://php.net/intdiv)
+- [`preg_replace_callback_array`](https://php.net/preg_replace_callback_array)
+- [`error_clear_last`](https://php.net/error_clear_last)
 - `random_bytes` and `random_int` (from [paragonie/random_compat](https://github.com/paragonie/random_compat))
-- [`*Error` throwable classes](http://php.net/Error)
-- [`PHP_INT_MIN`](http://php.net/manual/en/reserved.constants.php#constant.php-int-min)
+- [`*Error` throwable classes](https://php.net/Error)
+- [`PHP_INT_MIN`](https://php.net/reserved.constants#constant.php-int-min)
 - `SessionUpdateTimestampHandlerInterface`
 
 More information can be found in the
